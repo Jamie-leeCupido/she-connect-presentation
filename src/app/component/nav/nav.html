@@ -1,0 +1,41 @@
+<!--Navigation-->
+<nav class="navbar navbar-expand-lg py-3 shadow-sm bgnav">
+  <div class="container-fluid">
+    <!-- Logo + Brand -->
+    <div class="d-flex align-items-center">
+      <img src="logo.jpg" alt="logo" height="40" width="40" class="me-2 rounded-circle">
+      <a class="navbar-brand fw-bold fs-4 text-body" routerLink="/">SheConnect</a>
+    </div>
+    <div class="text-center">
+      <button class="btn btn-danger-emergency" (click)="sendEmergency()">🚨 Emergency</button>
+    </div>
+
+
+
+    <!-- Toggle for mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item px-2"><a class="nav-link" routerLink="/">Home</a></li>
+        <li class="nav-item px-2"><a class="nav-link" routerLink="/about">About</a></li>
+        <li class="nav-item px-2"><a class="nav-link" routerLink="/login">Login</a></li>
+        <li class="nav-item px-2"><a class="nav-link" routerLink="/register">Sign Up</a></li>
+        
+        <!-- Profile Dropdown -->
+        <li class="nav-item dropdown px-2">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Profile</a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" routerLink="/profile">Profile</a></li>
+            <li><a class="dropdown-item" routerLink="/report">Make Report</a></li>
+            <li><a class="dropdown-item" routerLink="/settings">Settings</a></li>
+            <li><a class="dropdown-item text-danger" (click)="logout()">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,62 @@
+.mentor-container {
+  background:#fff3f8;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 15cm;
+}
+
+.mentor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.mentor-card {
+  background: #ffe1ea;
+  border-radius: 20px;
+  padding: 1.5rem;
+  width: 220px;
+  box-shadow: 0 4px 15px rgba(198, 128, 180, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.mentor-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  background-color: #ffd6e0;
+  color: #3e3050;
+  border: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #ffb6cc;
+  color: #fff;
+}
+
+.about-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #d67fa1;
+}
+
+.about-title2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #d67fa1;
+}
+
+
+

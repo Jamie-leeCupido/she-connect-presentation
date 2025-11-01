@@ -1,0 +1,58 @@
+.joinprogram-container {
+  background:#fff3f8;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 10cm;
+}
+
+.program-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.program-card {
+  background: #ffe1ea;
+  border-radius: 20px;
+  padding: 2rem 1.5rem;
+  width: 250px;
+  box-shadow: 0 6px 18px rgba(198, 128, 180, 0.12);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.program-card h3 {
+  color: #d67fa1;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.program-card p {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin-bottom: 1.2rem;
+}
+
+.program-card button {
+  background-color: #ffd6e0;
+  color: #3e3050;
+  border: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.program-card button:hover {
+  background-color: #ffb6cc;
+  color: #fff;
+}
+
+.about-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #d67fa1;
+}
+
